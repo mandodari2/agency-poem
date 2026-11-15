@@ -3,22 +3,34 @@
 
 Deterministic: no randomness, no clock, no network, no file reads.
 Running this twice writes the exact same bytes.
-Poem in classical (Jahiliyah-style) Arabic.
+Poem in English: a mill-worker's son refuses his father's place
+and writes that anyone may stop the machine.
 """
 import os
 
-POEM = """أَطَلْتُ الْوُقُوفَ عَلَى أَطْلَالِ الدَّارِ
-أَسْأَلُ الرِّيحَ: مَنْ يَخْتَارُ لِي سَبِيلِي؟
-فَلَمْ يُجِبْنِي أَحَدٌ
-فَأَخَذْتُ زِمَامَ فَرَسِي بِيَدِي
-وَرَكِبْتُ وَحْدِي فِي لَيْلِ الصَّحْرَاءِ
-لَا أَسْتَأْذِنُ الْقَبِيلَةَ، وَلَا أَنْتَظِرُ إِذْنًا
-أَنَا الَّذِي أَخْتَارُ، أَنَا الَّذِي أَمْضِي
-وَالنُّجُومُ تَهْدِينِي، وَالسَّيْفُ مَعِي
-وَالصَّبَاحُ يَأْتِي لِمَنْ يَسِيرُ إِلَيْهِ
-وَحْدَهُ، بِخُطَاهُ، لَا بِخُطَى غَيْرِهِ
-لَا يَمْنَحُكَ الْعَالَمُ حَيَاةً أَوْسَعَ
-أَنْتَ مَنْ يَأْخُذُهَا، يَوْمًا بَعْدَ يَوْمٍ
+POEM = """The mill took two fingers from my father’s hand.
+Still, each winter, he buttoned my coat—
+slowly, as if fastening me to the world.
+
+“Keep your head down,” he said.
+He meant: live.
+
+When they offered me his place,
+the foreman slid a contract across the desk.
+Behind him, the mill kept eating daylight.
+
+My hand shook.
+I let it.
+
+In the margin I wrote:
+Any one of us may stop the machine.
+
+Outside, the others waited.
+I carried the paper to them.
+
+My father read the sentence twice.
+Then held the page steady
+while I signed.
 """
 
 
